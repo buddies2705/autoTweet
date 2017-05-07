@@ -2,7 +2,7 @@ import tweepy
 import ConfigParser
 
 Config = ConfigParser.ConfigParser()
-Config.read("/home/gauravagarwal/tweet_config.txt")
+Config.read("/home/ubuntu/tweet_config.txt")
 
 
 def ConfigSectionMap(section):
